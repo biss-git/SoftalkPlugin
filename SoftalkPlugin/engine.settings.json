@@ -1,0 +1,26 @@
+{
+  "Bools": [
+    {
+      "Key": "AccentEnable",
+      "Name": "ユニコエのアクセント編集を有効にする",
+      "Description": "有効時: ユニコエのフレーズ編集のアクセントを利用する\n無効時: 入力されたテキストをそのまま送る。",
+      "Value": false,
+      "DefaultValue": false,
+      "Order": 2,
+      "Hide": false
+    }
+  ],
+  "Strings": [
+    {
+      "Key": "ExePath",
+      "Name": "Softalk.exe の登録",
+      "Description": "Softalk.exeを登録することで本プラグインを利用できます。",
+      "Value": "",
+      "DefaultValue": "",
+      "Type": "file",
+      "FileDialogFilter": "Softalk(.exe) |*.exe| すべてのファイル |*.*",
+      "Order": -1,
+      "Hide": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "Key": "SoftalkLibrary02",
+  "Name": "女性02",
+  "Description": "Softalk の 2番話者",
+  "OS": "Windows",
+  "Language": "Japanese",
+  "LibraryFormat": [
+    "SoftalkLibrary"
+  ],
+  "Tags": [
+    "woman",
+    "女性"
+  ],
+  "VolumeSetting": {
+    "Name": "音量",
+    "Unit": "[%]",
+    "Description": "",
+    "Value": 50,
+    "DefaultValue": 50,
+    "Min": 0,
+    "MinExtend": 0,
+    "Max": 100,
+    "MaxExtend": 100,
+    "SmallStep": 1,
+    "StringFormat": "0",
+    "Hide": false
+  },
+  "SpeedSetting": {
+    "Name": "話速",
+    "Unit": "[%]",
+    "Description": "",
+    "Value": 100,
+    "DefaultValue": 100,
+    "Min": 50,
+    "MinExtend": 10,
+    "Max": 300,
+    "MaxExtend": 300,
+    "SmallStep": 1,
+    "StringFormat": "0",
+    "Hide": false
+  },
+  "PitchSetting": {
+    "Name": "高さ",
+    "Unit": "[%]",
+    "Description": "AquesTalk10 でのみ有効",
+    "Value": 50,
+    "DefaultValue": 50,
+    "Min": 20,
+    "MinExtend": 20,
+    "Max": 200,
+    "MaxExtend": 200,
+    "SmallStep": 1,
+    "StringFormat": "0",
+    "Hide": false
+  },
+  "EmphasisSetting": {
+    "Name": "ｱｸｾﾝﾄ",
+    "Unit": "[%]",
+    "Description": "AquesTalk10 でのみ有効",
+    "Value": 100,
+    "DefaultValue": 100,
+    "Min": 0,
+    "MinExtend": 0,
+    "Max": 200,
+    "MaxExtend": 200,
+    "SmallStep": 1,
+    "StringFormat": "0",
+    "Hide": false
+  },
+  "AdditionalSettings": [
+    {
+      "Key": "Interval",
+      "Name": "音程",
+      "Unit": "[-]",
+      "Description": "音程",
+      "Value": 100,
+      "DefaultValue": 100,
+      "Min": 0,
+      "MinExtend": 0,
+      "Max": 300,
+      "MaxExtend": 300,
+      "SmallStep": 1,
+      "StringFormat": "0",
+      "Hide": false,
+      "Color": "#9079b6"
+    },
+    {
+      "Key": "Interval2",
+      "Name": "音程2",
+      "Unit": "[-]",
+      "Description": "音程2 AquesTalk10にしか効かない",
+      "Value": 100,
+      "DefaultValue": 100,
+      "Min": 50,
+      "MinExtend": 50,
+      "Max": 200,
+      "MaxExtend": 200,
+      "SmallStep": 1,
+      "StringFormat": "0",
+      "Hide": false,
+      "Color": "#9079b6"
+    }
+  ]
+}

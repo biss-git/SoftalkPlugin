@@ -1,0 +1,59 @@
+﻿{
+  "Strings": [
+    {
+      "Key": "PresetName",
+      "Name": "プリセット名の指定",
+      "Description": "入力するとボイス名は無視されます。",
+      "Value": "",
+      "DefaultValue": "",
+      "Type": "",
+      "MaxLength": 100,
+      "Order": 2,
+      "Hide": false
+    },
+    {
+      "Key": "VoiceName",
+      "Name": "ボイス名",
+      "Description": "読み上げを行うボイスの指定。Noneで指定なし。",
+      "Value": "女性01",
+      "DefaultValue": "女性01",
+      "Type": "combobox",
+      "ComboItems": [
+        "None",
+        // AquesTalk
+        "女性01",
+        "女性02",
+        "男性01",
+        "男性02",
+        "ロボット",
+        "中性",
+        "機械",
+        "特殊",
+        // AquesTalk2
+        "女性 (defo1)",
+        "女性 (f1c)",
+        "女性 (f3a)",
+        "女性 (f4)",
+        "女性 (rm)",
+        "女性 (rm3)",
+        "女性 (teto1)",
+        "女性 (huskey)",
+        "女性 (momo1)",
+        "女性 (nonbiri)",
+        "男性 (m4b)",
+        "男性 (m5)",
+        "中性 (mf1)",
+        "中性 (mf2)",
+        "ロボット (robo)",
+        "ロボット (rb2)",
+        "ロボット (rb3)",
+        // AquesTalk10
+        "女性 (F1E)",
+        "女性 (F2E)",
+        "男性 (M1E)"
+      ],
+      "Order": 1,
+      "Hide": false
+    }
+  ]
+}

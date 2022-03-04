@@ -1,0 +1,109 @@
+{
+  "Key": "SoftalkPlugin",
+  "Name": "SofTalk プラグイン",
+  "Description": "ソフトークを呼び出すためのプラグインです",
+  "AssemblyName": "SoftalkPlugin.dll",
+  "OS": "Windows",
+  "Language": "Japanese",
+  "LibraryFormat": [
+    "SoftalkLibrary"
+  ],
+  "AccentEnable": true,
+  "AccentHide": false,
+  "SubPresetEnable": false,
+  "EngineSaveEnable": false,
+  "ShortPauseSetting": {
+    "Value": 80,
+    "DefaultValue": 80,
+    "Min": 80,
+    "Max": 500,
+    "SmallStep": 10
+  },
+  "LongPauseSetting": {
+    "Value": 370,
+    "DefaultValue": 370,
+    "Min": 100,
+    "Max": 2000,
+    "SmallStep": 10
+  },
+  "VolumeSetting": {
+    "Name": "音量",
+    "Unit": "[倍]",
+    "Description": "",
+    "Value": 1,
+    "DefaultValue": 1,
+    "Min": 0,
+    "MinExtend": 0,
+    "Max": 2,
+    "MaxExtend": 2,
+    "SmallStep": 0.01,
+    "StringFormat": "0.00",
+    "Type": "Sentence",
+    "Hide": false
+  },
+  "SpeedSetting": {
+    "Name": "話速",
+    "Unit": "[倍]",
+    "Description": "",
+    "Value": 1,
+    "DefaultValue": 1,
+    "Min": 0.5,
+    "MinExtend": 0.1,
+    "Max": 2,
+    "MaxExtend": 5,
+    "SmallStep": 0.01,
+    "StringFormat": "0.00",
+    "Type": "Sentence",
+    "Hide": false
+  },
+  "PitchSetting": {
+    "Name": "高さ",
+    "Unit": "[倍]",
+    "Description": "AquesTalk10 でのみ有効",
+    "Value": 1,
+    "DefaultValue": 1,
+    "Min": 0.5,
+    "MinExtend": 0.1,
+    "Max": 2,
+    "MaxExtend": 5,
+    "SmallStep": 0.01,
+    "StringFormat": "0.00",
+    "Type": "Sentence",
+    "Hide": false
+  },
+  "EmphasisSetting": {
+    "Name": "ｱｸｾﾝﾄ",
+    "Unit": "[倍]",
+    "Description": "AquesTalk10 でのみ有効",
+    "Value": 1,
+    "DefaultValue": 1,
+    "Min": 0,
+    "MinExtend": 0,
+    "Max": 2,
+    "MaxExtend": 5,
+    "SmallStep": 0.01,
+    "StringFormat": "0.00",
+    "Type": "Sentence",
+    "Hide": false
+  },
+  "AdditionalSettings": [
+    {
+      "Key": "Interval",
+      "Name": "音程",
+      "Unit": "[-]",
+      "Description": "音程",
+      "Value": 1,
+      "DefaultValue": 1,
+      "Min": 0,
+      "MinExtend": 0,
+      "Max": 3,
+      "MaxExtend": 3,
+      "SmallStep": 0.01,
+      "StringFormat": "0.00",
+      "Type": "Sentence",
+      "Hide": false,
+      "Color": "#9079b6",
+      "IconKind": "SolidCommentDots"
+    }
+  ]
+}
